@@ -8,18 +8,17 @@
                 </p>
             </div>
             <div>
-                <h4 class="text-white font-semibold text-sm mb-3">Rubrik</h4>
+                <h4 class="text-white font-semibold text-sm mb-3">Nalar Muda</h4>
                 <ul class="flex flex-col gap-2 text-sm">
-                    <li><x-nav-link href="/artikel" :active="request()->is('artikel')">Artikel</x-nav-link></li>
-                    <li><x-nav-link href="/internasional" :active="request()->is('internasional')">Internasional</x-nav-link></li>
-                    <li><x-nav-link href="/teknologi" :active="request()->is('teknologi')">Teknologi</x-nav-link></li>
-                    <li><x-nav-link href="/olahraga" :active="request()->is('olahraga')">Olahraga</x-nav-link></li>
+                    <li><x-nav-link href="/" :active="request()->is('/')">Beranda</x-nav-link></li>
+            <li><x-nav-link href="/artikel" :active="request()->is('artikel')">Artikel</x-nav-link></li>
+            <li><x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link></li>
                 </ul>
             </div>
             <div>
                 <h4 class="text-white font-semibold text-sm mb-3">Perusahaan</h4>
                 <ul class="flex flex-col gap-2 text-sm">
-                    <li><a href="#" class="hover:text-white transition">Tentang Kami</a></li>
+                    <li><a href="/about" class="hover:text-white transition">Tentang Kami</a></li>
                     <li><a href="#" class="hover:text-white transition">Redaksi</a></li>
                     <li><a href="#" class="hover:text-white transition">Kontak</a></li>
                     <li><a href="#" class="hover:text-white transition">Kebijakan Privasi</a></li>

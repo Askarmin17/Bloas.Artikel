@@ -6,7 +6,7 @@
         <ul class="flex gap-8 text-sm font-medium text-slate-600">
             <li><x-nav-link href="/" :active="request()->is('/')">Beranda</x-nav-link></li>
             <li><x-nav-link href="/artikel" :active="request()->is('artikel')">Artikel</x-nav-link></li>
-            <li><x-nav-link href="/contact" :active="request()->is('contact')">Contact</x-nav-link></li>
+            <li><x-nav-link href="/about" :active="request()->is('about')">About</x-nav-link></li>
         </ul>
 
         <div class="flex items-center gap-3">
