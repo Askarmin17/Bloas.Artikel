@@ -5,7 +5,7 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
-            <a href="{{ asset('documents/artikel 1.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
+            <a href="{{ asset('documents/artikel1.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
                 <article>
                     <div class="bg-gradient-to-br from-slate-800 to-slate-600 h-48 relative">
                         <span class="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shadow">PDF Jurnal</span>
@@ -30,7 +30,7 @@
                 </article>
             </a>
 
-            <a href="{{ asset('documents/artikel 2.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
+            <a href="{{ asset('documents/artikel2.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
                 <article>
                     <div class="bg-gradient-to-br from-blue-800 to-blue-600 h-48 relative">
                         <span class="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shadow">PDF Kajian</span>
@@ -55,7 +55,7 @@
                 </article>
             </a>
 
-            <a href="{{ asset('documents/artikel 3.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
+            <a href="{{ asset('documents/artikel3.pdf') }}" target="_blank" class="block bg-white rounded-2xl border border-slate-200 overflow-hidden group cursor-pointer hover:border-slate-300 transition">
                 <article>
                     <div class="bg-gradient-to-br from-green-800 to-green-600 h-48 relative">
                         <span class="absolute top-3 right-3 bg-red-600 text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded shadow">PDF Esai</span>
